@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'bus_factor'
+require 'optparse'
+
+puts BusFactor.worst
