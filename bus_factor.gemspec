@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = BusFactor::VERSION
   spec.authors       = ["Daniel Heath"]
   spec.email         = ["daniel@heath.cc"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Identify dependencies with few maintainers}
+  spec.description   = %q{Find things that are relatively likely to be abandoned unexpectedly}
+  spec.homepage      = "https://github.com/DanielHeath/bus_factor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
